@@ -2,7 +2,8 @@
 
 namespace BinarySearh_recur
 {
-	public class BinarySearch {
+	public class BinarySearch 
+	{
 
 		public static int binarySearch(int[] array, int target) {
 			try
@@ -36,7 +37,7 @@ namespace BinarySearh_recur
 			}
 		}
 
-		public static void main(string[] args) {
+		public static void Main(string[] args) {
 			int[] testArray = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 			try {
 				Console.WriteLine(binarySearch(testArray, 6));
